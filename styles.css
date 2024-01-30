@@ -53,3 +53,28 @@ body {
     padding: 0;
     margin: 0 15% 0 15%;
 }
+
+.resume {
+    height: 900px;
+    width: 100%;
+}
+
+.resume-body {
+    padding: 0;
+}
+
+.resume-holder {
+    width: 60%;
+    display: inline-block;
+}
+
+.qual-holder {
+    width: 30%;
+    height: 900px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.skill-title {
+    padding-left: 50%;
+}
