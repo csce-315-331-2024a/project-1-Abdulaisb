@@ -1,15 +1,17 @@
+body, html {
+    padding: 0;
+    margin: 0;
+    background-color: #707070;
+    color: white;
+}
 .title {
     padding-left: 40%;
 }
-body {
-    padding-left: 15%;
-}
+
 .project {
     border: 5px solid black;
     width: 800px;
     height: 300px;
-    padding: 0;
-    vertical-align: middle;
 }
 .project-label {
     border: 3px solid black;
@@ -77,4 +79,81 @@ body {
 
 .skill-title {
     padding-left: 50%;
+}
+
+nav {
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: lighter;
+    border-bottom: 1px solid rgba(255,255,255,0.3);
+}
+nav ul {
+    margin: 0;
+}
+nav li {
+    display: inline;
+}
+nav a{
+    display: inline-block;
+    padding: .5em;
+    color: white;
+    text-decoration: none;
+}
+nav li {
+    padding: 0 5%;
+}
+nav a:hover{
+    background-color: rgba(255,255,255,0.3);
+}
+
+.main-header {
+    background-color: rgba(0,0,0,0.6);
+    background-image: url(Night_Sky.webp);
+    background-blend-mode: multiply;
+    background-size: cover;
+    padding-bottom: 30px;
+
+}
+
+.name {
+    text-align: center;
+    margin: 0;
+    font-size: 4em;
+    font-weight: normal;
+    color: white;
+    font-size: 5em;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    font-size: 80;
+    padding: 20px 0;
+
+}
+
+.foot-img {
+    width: 40px;
+}
+
+.foot {
+    display: flex;
+    align-items: center;
+    padding: 0 40%;
+}
+.foot-list {
+    display: flex;
+}
+.foot-list span {
+    padding-left: 40px;
+}
+
+.home-content {
+    display: flex;
+    align-items: center;
+    padding: 0 40%;
+}
+
+.portfolio-content {
+    padding: 0 20% 0 20%;
 }
