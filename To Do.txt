@@ -1,9 +1,7 @@
-- Center Home page
-- Add 300 word self description
+- 3 more links
+- Center home
 - Center Portfolio
-- Add 2 projects to portfolio
-- Add github links to portfolio projects
-- Spice Up Skills Section
-- Add Interests to qualifications
-- Service ??
-- Rework Header
+
+
+- Verilog developer environment
+- FPGA robots videos

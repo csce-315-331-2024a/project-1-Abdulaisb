@@ -68,6 +68,7 @@ body, html {
 .resume-holder {
     width: 60%;
     display: inline-block;
+    padding: 0 0 30px 50px;
 }
 
 .qual-holder {
@@ -75,6 +76,7 @@ body, html {
     height: 900px;
     display: inline-block;
     vertical-align: top;
+    padding-left: 40px;
 }
 
 .skill-title {
@@ -106,7 +108,7 @@ nav a:hover{
     background-color: rgba(255,255,255,0.3);
 }
 
-.main-header {
+header {
     background-color: rgba(0,0,0,0.6);
     background-image: url(Night_Sky.webp);
     background-blend-mode: multiply;
@@ -139,7 +141,7 @@ footer {
 .foot {
     display: flex;
     align-items: center;
-    padding: 0 40%;
+    padding: 0 40% 0 35%;
 }
 .foot-list {
     display: flex;
@@ -151,9 +153,40 @@ footer {
 .home-content {
     display: flex;
     align-items: center;
-    padding: 0 40%;
+    padding: 10px 0;
+    margin: 40px;
 }
 
 .portfolio-content {
-    padding: 0 20% 0 20%;
+    padding: 0 20% 0 26%;
+}
+
+.portrait {
+    width: 400px;
+}
+
+.intro {
+    padding-left: 100px;
+    text-align: left;
+    font-size: 30px;
+    width: 1000px;
+}
+
+.filler {
+    height: 300px;
+}
+
+.service-holder {
+    display: grid;
+    text-align: center;
+    width: 60%;
+    padding-left: 20%;
+}
+
+.filler-2 {
+    height: 30px;
+}
+
+.qual-page {
+    padding-top: 40px;
 }
