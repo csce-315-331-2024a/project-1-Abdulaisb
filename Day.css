@@ -1,8 +1,8 @@
 body, html {
     padding: 0;
     margin: 0;
-    background-color: #707070;
-    color: white;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
 }
 .title {
     padding-left: 40%;
@@ -47,8 +47,8 @@ body, html {
 }
 
 .project-img {
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
     border: 3px solid black;
     display: grid;
     vertical-align: middle;
@@ -110,7 +110,7 @@ nav a:hover{
 
 header {
     background-color: rgba(0,0,0,0.6);
-    background-image: url(Night_Sky.webp);
+    background-image: url(sky.jpg);
     background-blend-mode: multiply;
     background-size: cover;
     padding-bottom: 30px;
@@ -128,8 +128,8 @@ header {
 }
 
 footer {
-    background-color: #333;
-    color: white;
+    background-color: #295f22;
+    color: rgb(0, 0, 0);
     font-size: 80;
     padding: 20px 0;
 
@@ -159,15 +159,19 @@ footer {
 }
 
 .portfolio-content {
-    padding: 0 20% 0 26%;
+    display: flex;
+    padding-bottom: 150px;
 }
 
 .portrait {
     width: 400px;
+    display: none;
 }
 
 .intro {
-    padding-left: 100px;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-bottom: 250px;
     text-align: left;
     font-size: 30px;
     width: 1000px;
@@ -178,10 +182,16 @@ footer {
 }
 
 .service-holder {
-    display: grid;
+    display: flex;
     text-align: center;
-    width: 60%;
-    padding-left: 20%;
+    padding: 0 10% 200px 10%;
+}
+.v1 {
+    padding-right: 80px;
+    width: 600px
+}
+.v2 {
+    width: 400px;
 }
 
 .filler-2 {

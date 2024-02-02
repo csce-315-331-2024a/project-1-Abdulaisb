@@ -2,23 +2,29 @@
 <html>
     <head>
         <title>
-            Portfolio Page
+            Landing Page
         </title>
         <link rel = "stylesheet" type = "text/css" href = "styles.css" id = "stylesheet">
+        <script src = "functions.js"></script>
     </head>
-    <body>
-        <header>
+    <body onload = "check()">
+        <header class = "main-header">
             <nav>
                 <ul>
                     <li><a href = "index.html">Home</a></li>
                     <li><a href = "portfolio.html">Portfolio</a></li>
                     <li><a href = "qualification.html">Qualifications</a></li>
-                    <li><a href = "service.html">Services</a></li>
+                    <li><a href = "service.html">Service</a></li>
                     <li><a href = "generated.html">Generated</a></li>
 
                 </ul>
             </nav>
-            <h1 class = "name">Portfolio</h1>
+            <div class = "style-holder">
+                <h1 class = "name">Abdulai Bah</h1>
+                <button type = "button" class = "btn" onclick = "shift()">
+                    <img class = "styler" src = "Moon.jpg">
+                </button>          
+            </div>
         </header>
         <div class = "filler-2"></div>
         <div class = "portfolio-content">
@@ -54,7 +60,7 @@
             </div>
             <div class = "project">
                 <span class = "project-label">
-                    <h2 class = "project-title"> Personal Website</h2> 
+                    <h2 class = "project-title">Dungeon Crawler</h2> 
                     <img src = "Dungeon Crawler.png" class = "project-img">
                 </span>
                 <span class = "project-text">
