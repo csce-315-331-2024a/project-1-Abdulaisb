@@ -110,7 +110,7 @@ nav a:hover{
 
 header {
     background-color: rgba(0,0,0,0.6);
-    background-image: url(sky.jpg);
+    background-image: url(day.webp);
     background-blend-mode: multiply;
     background-size: cover;
     padding-bottom: 30px;
@@ -204,6 +204,7 @@ footer {
 
 .styler {
     width: 90px;
+    height: 90px
 
 }
 .style-holder {
@@ -213,7 +214,7 @@ footer {
     
 }
 .btn {
-    background-color: black;
+    background-color: rgb(34, 153, 221);
     display: flex;
     padding-top: 5px;
     border:solid 2px #333;

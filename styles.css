@@ -110,7 +110,7 @@ nav a:hover{
 
 header {
     background-color: rgba(0,0,0,0.6);
-    background-image: url(Night_Sky.webp);
+    background-image: url(night.webp);
     background-blend-mode: multiply;
     background-size: cover;
     padding-bottom: 30px;
@@ -193,6 +193,7 @@ footer {
 }
 
 .styler {
+    margin-top: 15px;
     width: 90px;
 
 }

@@ -1,7 +1,0 @@
-- 3 more links
-- Center home
-- Center Portfolio
-
-
-- Verilog developer environment
-- FPGA robots videos
